@@ -1,0 +1,26 @@
+.loading {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.archive-all {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid #dedede;
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 3px 3px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px 0px 15px 20px;
+  margin: 10px 0;
+  color: #919191;
+  font-size: 14px;
+  cursor: pointer;
+
+  .icon {
+    color: #454444;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}

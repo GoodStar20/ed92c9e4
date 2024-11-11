@@ -1,0 +1,31 @@
+.tab-btn {
+  color: #a5a2a2;
+  transition: color 0.1s;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  height: 55px;
+  transform: translateY(1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  font-family: "Poppins";
+
+  &.active {
+    color: #484848;
+    border-bottom: #f32718 solid 3px;
+    font-weight: 600;
+  }
+}
+.more-icon {
+  color: #484848;
+
+  &:last-child {
+    display: none;
+  }
+}

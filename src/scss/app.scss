@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  .container {
+    width: 376px;
+    height: 666px;
+    z-index: 100;
+
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+  }
+
+  .container-view {
+    height: 79%;
+    padding: 10px 20px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

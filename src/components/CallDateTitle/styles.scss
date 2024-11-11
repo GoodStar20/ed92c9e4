@@ -1,0 +1,27 @@
+.date-title {
+  font-weight: 700;
+  color: #bdbdbd;
+  font-size: 10px;
+  position: relative;
+  letter-spacing: 2px;
+  margin: 15px 0 10px 0;
+  text-align: center;
+
+  &:before {
+    content: "";
+    width: 34%;
+    border-bottom: 1px dashed #dedede;
+    position: absolute;
+    bottom: 4px;
+    left: -20px;
+  }
+
+  &:after {
+    content: "";
+    width: 34%;
+    border-bottom: 1px dashed #dedede;
+    position: absolute;
+    bottom: 4px;
+    right: -20px;
+  }
+}
