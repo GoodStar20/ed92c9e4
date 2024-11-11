@@ -38,3 +38,8 @@ Here is the base URL of the API: https://aircall-backend.onrender.com
 - **PATCH** - BASE_URL/reset: Reset all calls to initial state (usefull if you archived all calls).
 
 ### Screenshots
+![1](https://github.com/user-attachments/assets/58c08124-bfbb-4648-955d-2c14374eb467)
+![2](https://github.com/user-attachments/assets/27f01131-537d-4a3c-80f1-c5941066da58)
+![3](https://github.com/user-attachments/assets/1c6ed9ac-cd0b-4b00-8e12-db26e29bbea0)
+
+
