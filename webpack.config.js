@@ -24,11 +24,14 @@ module.exports = {
           loader: "babel-loader",
         },
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "images/[name][hash][ext][query]",
+        },
+      },
     ],
-    output: {
-      path: path.resolve(__dirname, "build"),
-      filename: "bundle.js",
-    },
   },
   plugins: [
     new HtmlWebPackPlugin({
