@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 const Dotenv = require("dotenv-webpack");
 
 module.exports = {
@@ -39,5 +40,8 @@ module.exports = {
       filename: "./index.html",
     }),
     new Dotenv(),
+    new CopyWebpackPlugin({
+      patterns: [{ from: "public/images", to: "images" }],
+    }),
   ],
 };
